@@ -2,11 +2,13 @@
 
 // N = 5 -> "5, 4, 3, 2, 1"
 // N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"
-int n =15;
-void natural (int number){
-    if (number >0){
+int n = 15;
+void natural(int number)
+{
+    if (number > 0)
+    {
         Console.Write($"{number}, ");
-        natural(number-1); 
+        natural(number - 1);
     }
 }
 natural(n);
